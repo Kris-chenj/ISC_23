@@ -1,0 +1,116 @@
+supercell Input
+1node:
+     CP           :      3h14m CPU      3h17m WALL
+     CP           :      2h53m CPU      2h55m WALL
+     CP           :      2h 0m CPU      2h 1m WALL
+     CP           :      1h34m CPU      1h35m WALL
+     CP           :      1h18m CPU      1h19m WALL
+     CP           :      1h 8m CPU      1h 9m WALL
+     CP           :      1h 1m CPU      1h 2m WALL
+     CP           :  54m56.33s CPU  55m45.54s WALL
+     CP           :  52m24.04s CPU  53m11.13s WALL
+     CP           :  50m25.38s CPU  51m14.70s WALL
+     CP           :  50m26.87s CPU  51m14.26s WALL
+     CP           :  49m59.14s CPU  50m48.41s WALL
+     CP           :  49m51.55s CPU  50m46.07s WALL
+     CP           :  50m59.51s CPU  51m55.88s WALL
+     CP           :  50m 3.40s CPU  50m58.59s WALL
+     CP           :  50m12.65s CPU  51m58.84s WALL
+2node:
+     CP           :      3h14m CPU      3h17m WALL
+     CP           :      2h53m CPU      2h55m WALL
+     CP           :      2h 1m CPU      2h 2m WALL
+     CP           :      1h34m CPU      1h35m WALL
+     CP           :      1h18m CPU      1h19m WALL
+     CP           :      1h 7m CPU      1h 8m WALL
+     CP           :      1h 1m CPU      1h 1m WALL
+     CP           :  54m55.40s CPU  55m46.07s WALL
+     CP           :  52m30.97s CPU  53m23.71s WALL
+     CP           :  50m43.37s CPU  51m34.07s WALL
+     CP           :  50m31.73s CPU  51m18.61s WALL
+     CP           :  49m40.60s CPU  50m29.92s WALL
+     CP           :  49m58.28s CPU  50m54.61s WALL
+     CP           :  51m 2.65s CPU  51m57.98s WALL
+     CP           :  50m 3.97s CPU  51m 0.30s WALL
+     CP           :  50m28.93s CPU  51m34.55s WALL
+     CP           :  48m15.24s CPU  49m11.42s WALL
+     CP           :  46m56.84s CPU  47m58.73s WALL
+     CP           :  43m50.79s CPU  44m57.23s WALL
+     CP           :  44m50.71s CPU  46m19.28s WALL
+     CP           :  40m42.59s CPU  41m56.16s WALL
+     CP           :  40m 1.66s CPU  41m 4.64s WALL
+     CP           :  38m17.86s CPU  39m30.67s WALL
+     CP           :  36m52.37s CPU  37m49.38s WALL
+     CP           :  36m56.43s CPU  37m42.86s WALL
+     CP           :  35m 8.64s CPU  36m27.22s WALL
+     CP           :  34m53.66s CPU  35m51.27s WALL
+     CP           :  33m50.14s CPU  34m32.80s WALL
+     CP           :  32m39.34s CPU  33m26.42s WALL
+     CP           :  31m34.10s CPU  32m12.36s WALL
+     CP           :  30m 7.95s CPU  31m11.50s WALL
+     CP           :  32m38.19s CPU  33m45.45s WALL
+4node:
+     CP           :      3h14m CPU      3h17m WALL
+     CP           :      2h52m CPU      2h54m WALL
+     CP           :      1h59m CPU      2h 1m WALL
+     CP           :      1h34m CPU      1h36m WALL
+     CP           :      1h18m CPU      1h19m WALL
+     CP           :      1h 7m CPU      1h 8m WALL
+     CP           :      1h 1m CPU      1h 1m WALL
+     CP           :  54m54.60s CPU  55m51.41s WALL
+     CP           :  52m33.17s CPU  53m22.67s WALL
+     CP           :  50m44.24s CPU  51m36.02s WALL
+     CP           :  50m25.33s CPU  51m14.85s WALL
+     CP           :  49m41.46s CPU  50m31.75s WALL
+     CP           :  49m54.34s CPU  50m50.15s WALL
+     CP           :  50m57.32s CPU  51m53.19s WALL
+     CP           :  50m12.60s CPU  51m 7.73s WALL
+     CP           :  50m26.44s CPU  51m29.46s WALL
+     CP           :  48m53.76s CPU  49m48.58s WALL
+     CP           :  46m33.98s CPU  47m47.99s WALL
+     CP           :  44m16.90s CPU  45m28.68s WALL
+     CP           :  42m51.64s CPU  44m 3.93s WALL
+     CP           :  41m59.68s CPU  43m 8.13s WALL
+     CP           :  41m 9.05s CPU  42m12.27s WALL
+     CP           :  38m30.59s CPU  39m32.01s WALL
+     CP           :  37m18.13s CPU  38m12.52s WALL
+     CP           :  36m14.31s CPU  37m 3.26s WALL
+     CP           :  35m35.72s CPU  36m54.29s WALL
+     CP           :  35m44.15s CPU  36m38.11s WALL
+     CP           :  34m 0.09s CPU  34m41.32s WALL
+     CP           :  32m30.22s CPU  33m 8.23s WALL
+     CP           :  31m10.02s CPU  31m50.90s WALL
+     CP           :  31m20.76s CPU  32m 0.10s WALL
+     CP           :  31m23.13s CPU  32m32.31s WALL
+     CP           :  31m31.01s CPU  32m32.73s WALL
+     CP           :  31m 5.22s CPU  31m41.77s WALL
+     CP           :  30m29.48s CPU  31m11.29s WALL
+     CP           :  31m 2.97s CPU  31m38.54s WALL
+     CP           :  30m59.18s CPU  31m34.55s WALL
+     CP           :  30m34.46s CPU  31m10.78s WALL
+     CP           :  30m 4.44s CPU  30m37.20s WALL
+     CP           :  28m28.70s CPU  29m 6.69s WALL
+     CP           :  27m 9.15s CPU  27m45.09s WALL
+     CP           :  27m57.31s CPU  28m30.66s WALL
+     CP           :  26m42.08s CPU  27m12.33s WALL
+     CP           :  26m 1.53s CPU  26m33.46s WALL
+     CP           :  26m12.13s CPU  26m43.85s WALL
+     CP           :  26m55.54s CPU  27m28.35s WALL
+     CP           :  26m22.62s CPU  26m55.90s WALL
+     CP           :  27m12.42s CPU  27m47.58s WALL
+     CP           :  28m14.16s CPU  28m48.78s WALL
+     CP           :  26m24.87s CPU  27m34.32s WALL
+     CP           :  28m10.45s CPU  28m43.13s WALL
+     CP           :  25m35.21s CPU  26m 3.07s WALL
+     CP           :  24m46.63s CPU  25m17.45s WALL
+     CP           :  26m57.45s CPU  27m28.44s WALL
+     CP           :  25m 0.57s CPU  25m30.35s WALL
+     CP           :  25m48.59s CPU  26m19.17s WALL
+     CP           :  25m 3.23s CPU  25m31.23s WALL
+     CP           :  25m37.17s CPU  26m 7.74s WALL
+     CP           :  24m51.80s CPU  25m22.86s WALL
+     CP           :  24m47.89s CPU  25m17.63s WALL
+     CP           :  21m47.46s CPU  22m16.17s WALL
+     CP           :  21m57.22s CPU  22m27.41s WALL
+     CP           :  23m33.27s CPU  24m 0.26s WALL
+     CP           :  26m20.70s CPU  26m52.08s WALL

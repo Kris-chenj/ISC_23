@@ -1,0 +1,195 @@
+59  spack install openmpi@4.1.4%gcc@11.3.0
+   60  echo "source /opt/spack/share/spack/setup-env.sh" >> ~/.bashrc
+   61  echo "source /opt/spack/share/spack/setup-env.sh" >> ~/zshrc
+   62  echo "source /opt/spack/share/spack/setup-env.sh" >> ~/.zshrc
+   63  bash
+   64  rm -rf spack
+   65  git clone https://github.com/spack/spack.git
+   66  . spack/share/spack/setup-env.sh
+   67  cd share
+   68  cd spack
+   69  ./setup-env.sh
+   70  zsh
+   71  echo "source ~/spack/share/spack/setup-env.sh" >> ~/.zshrc
+   72  spack find compiler
+   73  spack find compilers
+   74  spack compilers find
+   75  spack compiler find
+   76  spack compilers
+   77  spack install openmpi@4.1.4
+   78  spack find
+   79  spack install intel-mkl
+   80  cd QE
+   81  cd ~/QE
+   82  tar zxvf qe-7.1-ReleasePack.tar.gz
+   83  cd qe-7.1
+   84  mkdir build
+   85  cd build
+   86  spack load mkl
+   87  spack load mpi
+   88  cmake -DCMAKE_C_COMPILER=mpicc -DCMAKE_Fortran_COMPILER=mpif90 ..
+   89  make pw ph cp
+   90  ls
+   91  git clone https://github.com/QEF/benchmarks.git
+   92  cd benchmarks/AUSURF112
+   93  source ~/.zshrc
+   94  mpirun -np 32 -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_LOG_LEVEL=error pw.x -inp ausurf.in
+   95  vim ~/.zshrc
+   96  cd .
+   97  cd ..
+   98  pwd
+   99  zsh -c "$(curl -fsSL 'https://api.host.mintimate.cn/fileHost/public/download/1P0R')"
+  100  exec zsh
+  101  vim ~/.zshrc
+  102  exec zsh
+  103  zsh
+  104  exit
+  105  pwd
+  106  git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+  107  exec zsh
+  108  clear
+  109  which spack
+  110  spack find
+  111  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+  112  vim ~/.zshrc
+  113  exec zsh
+  114  clear
+  115  spack find
+  116  cd ~/.ssh
+  117  ls
+  118  ls -a
+  119  cat authorized_keys
+  120  pwd
+  121  exit
+  122  ls
+  123  cd QE
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd spack
+  128  ls
+  129  cd share/spack
+  130  ls
+  131  ./setup-env.sh
+  132  cd ..
+  133  ls
+  134  cd benchmarks
+  135  ls
+  136  cd AUSURF112
+  137  l
+  138  ls
+  139  spack load mkl
+  140  vim ~/.zshrc
+  141  echo "source /opt/spack/share/spack/setup-env.sh" >> ~/.zshrc
+  142  source ~/.zshrc
+  143  echo "source ~/spack/share/spack/setup-env.sh" >> ~/.zshrc
+  144  source ~/.zshrc
+  145  echo "source ~/spack/share/spack/setup-env.sh" >> ~/.zshrc
+  146  source ~/.zshrc
+  147  vim ~/.zshrc
+  148  spack load mkl
+  149  spack load mpi
+  150  cd QE
+  151  cd benchmarks
+  152  ls
+  153  cd AUSURF112
+  154  ls
+  155  mpirun -np 32 -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_LOG_LEVEL=error pw.x -inp ausurf.in
+  156  vim ~/.zshrc
+  157  source ~/.zshrc
+  158  mpirun -np 32 -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_LOG_LEVEL=error pw.x -inp ausurf.in
+  159  ls
+  160  cd ..
+  161  ls
+  162  cd ..
+  163  ls
+  164  cd qe-7.1
+  165  ls
+  166  cd build
+  167  ls
+  168  cd bin
+  169  ls
+  170  ldd pw.x
+  171  ls
+  172  cd ..
+  173  rm -r *
+  174  ls
+  175  cmake ..
+  176  which mpirun
+  177  make -j pw
+  178  cd ../../benchmarks/AUSURF112/
+  179  ls
+  180  mpirun -np 32 -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_LOG_LEVEL=error pw.x -inp ausurf.in
+  181  cd ../..
+  182  ls
+  183  cd qe-7.1
+  184  ls
+  185  spack find
+  186  which spack
+  187  bash
+  188  spack load intel-oneapi-mkl
+  189  spack load mpi
+  190  cd ..
+  191  cd benchmarks
+  192  cd AUSURF112
+  193  mpirun -np 32 -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_LOG_LEVEL=error pw.x -inp ausurf.in
+  194  spack find mkl
+  195  cd ../../
+  196  ls
+  197  cd qe-7.1
+  198  ls
+  199  cd build/
+  200  rm -r *
+  201  cmake ..
+  202  make -j pw
+  203  cd ../..
+  204  cd benchmarks/AUSURF112
+  205  mpirun -np 32 -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_LOG_LEVEL=error pw.x -inp ausurf.in
+  206  OMP_NUM_THREADS=1 mpirun -np 128 pw.x -inp ausurf.in
+  207  cd 
+  208  cd QE
+  209  ls
+  210  cd qe-7.1
+  211  ls
+  212  cd build
+  213  rm -r *
+  214  spack find
+  215  spack install intel-oneapi-compilers
+  216  spack load intel-oneapi-compilers@2023.0.0
+  217  icc
+  218  spack compilers find
+  219  spack compiler find
+  220  cd 
+  221  cd QE/benchmarks/AUSURF112
+  222  ls
+  223  cd
+  224  cd QE/qe-7.1/build
+  225  rm -r *
+  226  export CC=icc 
+  227  mpicc
+  228  export OMPI_MPICC=icc
+  229  mpicc
+  230  export OMPI_MPIF90=ifort
+  231  export OMPI_MPIF77=ifort
+  232  mpif77
+  233  mpif90
+  234  export OMPI_MPIF90=ifort
+  235  mpif90
+  236  export OMPI_FC=ifort
+  237  mpif90
+  238  mpif77
+  239  mpifort
+  240  export FC=ifort
+  241  export F90=ifort
+  242  export F77=ifort
+  243  cmake ..
+  244  make -j pw VERBOSE=1
+  245  pw.x
+  246  cd ..
+  247  cd ../benchmarks/AUSURF112
+  248  OMP_NUM_THREADS=1 mpirun -np 128 pw.x -inp ausurf.in
+  249  gcc --version
+  250  spack find
+  251  icc
+  252  icx
+  253  lscpu

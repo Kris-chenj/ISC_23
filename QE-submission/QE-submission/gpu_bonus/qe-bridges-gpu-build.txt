@@ -1,0 +1,13 @@
+# QE 7.1 built with CUDA aware MPI will fail at runtime
+tar -xzf ./qe-7.2-ReleasePack.tar.gz
+
+module load mkl
+module load nvhpc/22.9
+module load openmpi/4.0.5-nvhpc22.9
+
+cd qe-7.2
+
+CC=nvc CXX=nvc++ FC=nvfortran ./configure --with-cuda=$NVHPC_ROOT/cuda/ --with-cuda-cc=70 --enable-openmp --with-cuda-runtime=11.7 --with-cuda-mpi=yes
+
+make -j cp
+

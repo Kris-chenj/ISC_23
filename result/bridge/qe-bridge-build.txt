@@ -1,0 +1,15 @@
+tar -xzf ./qe-7.1-ReleasePack.tar.gz
+
+# Set qe folder's CMakeLists.txt option
+option(QE_ENABLE_SCALAPACK "enable SCALAPACK execution units" ON)
+
+# Load enviroment
+module load openmpi/4.0.2-intel20.4
+
+cd qe-7.1
+mkdir build
+cd build
+
+CC=mpiicc FC=mpiifort cmake .. 
+
+make -j cp

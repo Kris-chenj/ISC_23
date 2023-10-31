@@ -1,0 +1,16 @@
+tar -xzf ./qe-7.2-ReleasePack.tar.gz
+
+# load latest MKL, Intel MPI, fox toolkit and Compilers
+spack load intel-oneapi-mkl
+spack load intel-oneapi-mpi
+spack load intel-oneapi-compilers
+spack load fox
+spack load cmake
+
+cd qe-7.2
+mkdir build
+cd build
+
+CC=mpiicc FC=mpiifort cmake .. 
+
+make -j cp

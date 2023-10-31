@@ -1,0 +1,2 @@
+# Only for GPU node that allocated one socket and 4 GPUs connected to that socket
+mpirun  -np 4 -x OMP_NUM_THREADS=5 --map-by socket:pe=5  /ocean/projects/bio220064p/ahu1/qe-gpu/qe-7.2/bin/cp.x -i cp.in

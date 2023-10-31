@@ -1,0 +1,8 @@
+-np  ppr  socket:PE
+ 8    1       64        1h33m CPU      1h34m WALL 
+ 16   2       32    47m17.38s CPU  47m43.47s WALL
+ 32   4       16    26m14.23s CPU  26m34.14s WALL
+ 64   8        8    17m 3.66s CPU  17m14.89s WALL
+128   16       4    15m12.35s CPU  15m29.88s WALL
+256   32       2    15m53.56s CPU  16m 9.34s WALL
+512   64       1    25m20.61s CPU  25m48.22s WALL
